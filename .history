@@ -278,3 +278,129 @@ cd Repos/Command_line_MasterDS
 cp ~/.history
 cp ~/.hsitory .
 cp ~/.history .
+git add -u
+git commit -m "Quick exercise --> $(date)"
+git push
+cd
+clear
+ll
+rm madera
+rm minuevoarchivo
+ll
+alias
+alias gl='git log'
+gl
+cd Command_line_MasterDS
+gl
+git log
+alias gc='git commit -m'
+exit
+gl
+ll
+ll -a
+gedit .zshrc
+cp .zshrc .zshrc.backup
+which ll
+which cd
+which bo
+which git
+which python
+whereis python
+sudo which python
+echo hola
+echo this is all very very Nice
+echo hola
+echo this is all very very Nice
+which git
+ls sub3
+echo "hola\\
+jeje"
+cd Command_line_MasterDS
+cd
+cd Data/opentraveldata
+ll
+head optd_aircraft.csv
+tail optd_aircraft.csv
+head -n 3 optd_aircraft.csv
+head -n -3 optd_aircraft.csv
+wc optd_aircraft.csv
+which wc
+ll wc
+wc -w optd_aircraft.csv
+cat optd_aircraft.csv
+cat optd_aircraft.csv | wc 
+head -3 optd_aircraft.csv
+head -8 optd_aircraft.csv | yail -1
+head -8 optd_aircraft.csv | tail -1
+echo Test
+echo Test >test_file
+cat test_file
+echo Test2 >test_file
+test_file
+cat test_file
+echo Test3 >>test_file
+cat test_file
+test_file wc
+<test_file wc
+cd ../
+cd Shell
+cd shell
+ls
+cat Finn.txt
+head Finn.txt
+head Finn.txt wc
+head Finn.txt | wc
+head -5 Finn.txt 
+head -5 Finn.txt | wc
+tail -20~/.history > last_20_commands
+touch file
+gedit file
+file
+cat file
+echo This file
+echo This file is created by Kschool on ($date)
+echo This file is created by Kschool on ($Date)
+echo This file is created by Kschool on (DATE)
+echo This file is created by Kschool on ($DATE)
+"echo This file is created by Kschool on $(DATE)"
+"echo This file is created by Kschool on $(Date)"
+"echo This file is created by Kschool on $(date)"
+"echo This file is created by Kschool on $(date)" > Kschool_file
+"echo This file is created by Kschool on $(date)" >Kschool_file
+"echo This file is created by Kschool on $(date)" | >Kschool_file
+find
+cd
+find
+find ./Repos/
+find ./Repos | wc
+find . name "text_file"
+find -name "text_file"
+find -iname "TexT_fIle"
+find . -maxdepth 1 -type d -iname "Text_file"
+find . -mindepth 1 -type d -iname "Text_file"
+find . -mindepth 2 -type d -iname "Text_file"
+find -iname "text_file*"
+find -iname "text_file*" -perm 777
+find -iname "text_file*" | -perm 777
+find -iname "text_file*" ! -perm 777
+find -maxdepth 3 .empty
+find -maxdepth 3 .size
+find -maxdepth 3 -size
+find -maxdepth 3 -nmin -60
+$(date)
+cd Data
+echo $(date)
+find . -type f -iname "*.csv"
+find . -type f -iname "*.csv" -exec echo "FOUND ONE" \;
+find . -type f -iname "*.csv" -exec ls -l {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \; exec head -2 {}\;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {}\;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \;
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | wc
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | less -5
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | wc
+find . -type f -iname "*.csv" -exec ls -l {} \; -exec head -2 {} \; | wc \;
+find . -type f -iname "*.csv" -exec zsh -c "ls -l {} | wc" \;
+cd Data
+find . -type f -iname "*.csv" -exec zsh -c "ls -l {} | wc" \;
+bash
