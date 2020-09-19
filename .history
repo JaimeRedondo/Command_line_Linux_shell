@@ -1,0 +1,208 @@
+ls
+echo$SHELL
+echo $SHELL
+whoami
+echo $TERM
+echo hola
+echo $USER
+echo $hola
+echo d$hola
+echo "$USER"
+echo '$USER'
+echo 'hola' 
+echo "$USER"
+clear
+date
+echo "hoy es el dia `date`"
+echo "hoy es el dia %date"
+echo "hoy es el dia ($date")
+echo "hoy es el dia $(date)\
+\
+"
+echo "hoy es el dia $(date)/\
+\
+\
+\
+\
+\
+\
+que vamos a jugar/\
+\
+\
+\
+\
+al futbol"
+clear
+echo "hoy es el dia $(date)/\
+\
+de jugar al futbol"
+echo "hoy\\
+\
+\
+\
+\
+futbol"
+echo "hoy/\
+\
+fut"
+echo "hoy es mi dia `date`/\
+que es mi dia fav"
+clear
+ls
+/home/dsc
+wcho "hola\\
+jeje"
+echo "hola\\
+jeje"
+cd Data/shell
+clear
+ls
+cat Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cat Text_example.txt Text_example.txt Text_example.txt
+cat Text_example.txt
+pwd
+cd~
+cd ~
+cd../
+cd..\\
+
+cd Data/Shell
+cd Data/shell
+cd/../../
+cd../
+cd ../
+-
+clear
+ls
+cd Data/shell
+cd ../
+cd Data/shell
+ls
+pws
+pwd
+cd ../../
+ls -a
+ls -l
+ls -1
+ls -s
+ls -l
+ls -S
+ls -lr
+#chmod para cambiar permisos.
+chmod 644 Videos
+ls -l
+chmod 775 Videos
+ls -l
+mkdir minuevofolder
+ls -ls
+touch minuevoarchivo
+ls -l
+mkdir -p level1/level2/level3
+ls -ls
+cd level1
+cd ../
+cd level2
+rmcp minuevoarchivo
+clear
+echo 'agua' > nuevo
+cat nuevo
+mv nuevo madera
+cat madera
+git 
+clear
+git clone https://github.com/IgorAramb/DS_CL_files.com/
+git clone https://github.com/IgorAramb/DS_CL_files.git
+cd DS_CL_files
+rm README.md
+ls
+git reset HEAD
+ls
+man ls
+clear
+git config --global user.name
+git config --global user.name "Jaime R"
+git config --global user.email "Jaime.Redondo95@gmail.com"
+cd ~
+git clone https://github.com/JaimeRedondo/Master-Kschoool.git
+ls
+cd master-kschool
+cd Master-Kschool
+cd Master-Kschoool
+git clone https://github.com/JaimeRedondo/Kschool.git
+ls
+git push
+JaimeRedondo
+git push
+git pull
+git log
+git push
+git config --global user.name "Jaime Redondo"
+git config --global user.email "Jaime.Redondo95@gmail.com"
+cat .gitconfig
+cd
+gedit .config/
+cd
+cd~
+gedit.gitconfig
+gedit .gitconfig
+ls
+mkdir Repos
+cd Repos
+git clone https://github.com/JaimeRedondo/Kschool.git
+git clone https://github.com/JaimeRedondo/Kschool.git otro_dir_name
+ls
+pwd
+git clone https://github.com/JaimeRedondo/Kschool.git ../Pictures/nombre_repo
+ls
+ls ../Pictures/
+git init Master_class_local_start
+ll
+cd Master_class_local_start
+cd
+~/Repos/Master_class_local_start
+~/Repos
+cd Repos
+cd Master_class_local_start
+ls -a
+cd
+git init 
+cd ..
+cd
+cd 
+rm -rf .git
+cd Repos/Master_class_local_start
+ll
+git status
+touch first_file.txt
+touch second file
+ll
+gedit first_file.txt
+git add first_file.txt
+git status
+git add second
+git status
+git add file
+git status
+git commit -m "first commit"
+git status
+git log
+gedit first_file.txt
+git status
+git add -u
+git commit
+git remote -v
+git remote add origin https://github.com/JaimeRedondo/local_init.git
+git remote -v
+git branch -M master
+git push -u origin master
+cd
+cat . history
+cat .history
+git clone https://github.com/JaimeRedondo/Command_line_MasterDS.git
+cd/Repos
+cd Repos
+git clone https://github.com/JaimeRedondo/Command_line_MasterDS.git
+cd Command_line_MasterDS
+cp ~/.history
+cp ~/.history ./
