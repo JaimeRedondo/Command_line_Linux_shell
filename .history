@@ -206,3 +206,75 @@ git clone https://github.com/JaimeRedondo/Command_line_MasterDS.git
 cd Command_line_MasterDS
 cp ~/.history
 cp ~/.history ./
+ll
+ls -m
+ls -a
+git add .history
+git commit -m "first 5h of master"
+ls -a
+git push
+cd
+ls
+mkdir first_dir
+ls
+cd first_dir
+touch text_file.txt
+ls
+chmod 776
+chmod --help
+chmod 775
+mkdir sub1
+ls
+mkdir sub2
+mkdir sub3
+mkdir text_file
+cp -r first_dir sub1
+cp .text_file.txt ../sub1
+ls
+cp text_file.txt
+cp --/
+cp --help
+cp -p text_file.txt sub1
+ls
+cd sub1
+ls
+mv text_file.txt sub2/text_file2.txt
+mv text_file.txt sub2
+sub2
+cd sub2
+ls
+cd sub2
+cd sub1
+cd sub2/
+cd first_dir
+cd ../
+cd sub2
+ls
+cd ../
+cd sub1
+ls
+cd
+mkdir first_dir
+cd first_dir
+ls
+ll
+touch text_file.txt
+ll
+chmod g+x,o+w text_file.txt
+ll
+mkdir sub1 sub2 text_file
+ls
+ll
+cp text_file.txt sub1
+ls sub1
+mv text_file.txt sub2/text_file2.txt
+ls sub2
+cp -r sub1 sub3
+ls sub3
+cd Repos/Command_line_MasterDS
+cd Repos
+cd
+cd Repos/Command_line_MasterDS
+cp ~/.history
+cp ~/.hsitory .
+cp ~/.history .
